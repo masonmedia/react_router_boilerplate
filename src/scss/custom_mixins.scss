@@ -1,0 +1,11 @@
+@mixin flex-left {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .justify-content-center;
+    @extend .align-items-start;
+    @extend .text-left;
+  }
+
+  .flex-left {
+      @include flex-left;
+  }

@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+@import "custom_mixins.scss";
+
+// height
+
+.min-300 {
+    min-height: 300px;
+}
+.min-500 {
+    min-height: 500px;
+}
+.min-700 {
+    min-height: 700px;
+}
+.min-100 {
+    min-height: 100vh;
+}
